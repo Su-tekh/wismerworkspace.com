@@ -106,3 +106,18 @@
 #back-to-top, .di_responsive_social_widget a, .bbp-submit-wrapper .button {
     background-color: #87C72F;
 }
+
+.side-menu-close-button {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    overflow: hidden;
+    text-indent: 1em;
+    font-size: 0.75em;
+    border: none;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+}
