@@ -1,0 +1,104 @@
+
+
+.side-menu-menu-button {
+    background-color: #87C72F;
+}
+
+.navbarprimary .navbar-nav > li > a {
+    color: #307633;
+}
+
+.site-title-main a.site-name-pr {
+    color: #307633;
+}
+
+.bgtoph {
+    background-color: #B6B8BA;
+}
+
+.bgtoph, .bgtoph-icon-clr {
+    color: #FFF;
+}
+
+.bgtoph a {
+		color: #FFF;
+}
+
+.bgtoph-icon-clr {
+    border-color: #FFF;
+}
+
+.footer-copyright {
+	background-color: #B6B8BA;
+	color: #FFF;
+}
+
+.footer-copyright a {
+	color: #307633;
+}
+
+.header-logo-outer {
+	background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/Logo_Name_Clear_Title.png) no-repeat center center;
+	background-size: 350px;
+	height: 86px;
+	width: 400px;
+	margin: auto;
+}
+
+.col-md-4.alignr-spsl.cprtright_ctmzr {
+	content: "Wordpress";
+	/*visibility: hidden;*/
+}
+
+.site-name-pr {
+	opacity: 0;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+#side-menu a {
+	color: #DAEAE9;
+}
+
+.side-menu-menu-wrap {
+	background-color: rgba(51, 179, 113, .6);
+}
+
+.side-menu-menu-wrap ul li a::before {
+    font-family: fontawesome;
+    font-weight: normal;
+    left: -4px;
+    position: relative;
+}
+
+/* Side-Slide Menu [Web Design]*/
+#menu-item-51 a::before {
+    content: "\f022";
+}
+
+/* Side-Slide Menu [eCommerce]*/
+#menu-item-50 a::before {
+    content: "\f07a";
+}
+
+/* Side-Slide Menu [File Digitization and Cloud Migration]*/
+#menu-item-52 a::before {
+    content: "\f0ee";
+}
+
+/* Side-Slide Menu [Feng Shui]*/
+#menu-item-53 a::before {
+    content: "\f14e";
+}
+
+/* Side-Slide Menu [Recycling]*/
+#menu-item-55 a::before {
+    content: "\f1b8";
+}
+
+/* Side-Slide Menu [Cleaning]*/
+#menu-item-54 a::before {
+    content: "\f043";
+}
