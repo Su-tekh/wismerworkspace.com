@@ -102,3 +102,7 @@
 #menu-item-54 a::before {
     content: "\f043";
 }
+
+#back-to-top, .di_responsive_social_widget a, .bbp-submit-wrapper .button {
+    color: #87C72F;
+}
