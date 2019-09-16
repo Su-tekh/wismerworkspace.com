@@ -141,18 +141,56 @@
     background-color: #87C72F;
 }
 
-.wp-block-button__link #setup_Button {
-    background-color: #32373c;
-    border: none;
-    border-radius: 28px;
-    box-shadow: none;
-    color: inherit;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    margin: 0;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    overflow-wrap: break-word;
+/* Buttons */
+
+/* Setup Button */
+#setup_Button a {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/setup_Button_v1.png) no-repeat center center;
+    color: transparent;
+    font-size: 28px;
+    padding: 12px 30px;
+}
+
+#setup_Button a:hover {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/setup_Button_v1_hover.png) no-repeat center center;
+    color: transparent;
+    font-size: 28px;
+    padding: 12px 30px;
+}
+
+#setup_Button a:active {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/setup_Button_v1_active.png) no-repeat center center;
+    color: transparent;
+    font-size: 28px;
+    padding: 12px 30px;
+}
+
+/* Management Button */
+#management_Button a {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/management_Button_v1.png) no-repeat center center;
+    color: transparent;
+    font-size: 28px;
+    padding: 12px 30px;
+}
+
+#management_Button a:hover {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/management_Button_v1_hover.png) no-repeat center center;
+    color: transparent;
+    font-size: 28px;
+    padding: 12px 30px;
+}
+
+#management_Button a:active {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/management_Button_v1_active.png) no-repeat center center;
+    color: transparent;
+    font-size: 30px;
+    padding: 12px 30px;
+}
+
+/* Changes h2 styling */
+h2 {
+    color: #00A79D;
+    -webkit-text-fill-color: #00A79D;;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 99, 92);;
 }
