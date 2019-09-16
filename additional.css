@@ -1,77 +1,27 @@
+/* This styling sheet is to be copied and pasted into the "Additional CSS" box on the "Customize" menu of Wordpress */
 
 
+/* Side Slider */
+
+/* Side Slider Button */
 .side-menu-menu-button {
     background-color: #87C72F;
 }
 
-.navbarprimary .navbar-nav > li > a {
-    color: #307633;
-}
-
-.site-title-main a.site-name-pr {
-    color: #307633;
-}
-
-.bgtoph {
-    background-color: #B6B8BA;
-}
-
-.bgtoph, .bgtoph-icon-clr {
-    color: #FFF;
-}
-
-.bgtoph a {
-		color: #FFF;
-}
-
-.bgtoph-icon-clr {
-    border-color: #FFF;
-}
-
-.footer-copyright {
-	background-color: #B6B8BA;
-	color: #FFF;
-}
-
-.footer-copyright a {
-	color: #307633;
-}
-
-.header-logo-outer {
-	background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/Logo_Name_Clear_Title.png) no-repeat center center;
-	background-size: 350px;
-	height: 86px;
-	width: 400px;
-	margin: auto;
-}
-
-.col-md-4.alignr-spsl.cprtright_ctmzr {
-	content: "Wordpress";
-	/*visibility: hidden;*/
-}
-
-.site-name-pr {
-	opacity: 0;
-}
-
-.navbar-collapse {
-	flex-grow: 0;
-}
-
-#side-menu a {
-	color: #DAEAE9;
-}
-
+/* Side Slider Background Color */
 .side-menu-menu-wrap {
 	background-color: rgba(51, 179, 113, .6);
 }
 
+/* Side Slider Styling */
 .side-menu-menu-wrap ul li a::before {
     font-family: fontawesome;
     font-weight: normal;
     left: -4px;
     position: relative;
 }
+
+/* Side Slider Bullet Points */
 
 /* Side-Slide Menu [Web Design]*/
 #menu-item-51 a::before {
@@ -103,10 +53,7 @@
     content: "\f043";
 }
 
-#back-to-top, .di_responsive_social_widget a, .bbp-submit-wrapper .button {
-    background-color: #87C72F;
-}
-
+/* Side Slider Close button */
 .side-menu-close-button {
     width: 2em;
     height: 2em;
@@ -121,4 +68,91 @@
     background: transparent;
     color: transparent;
     cursor: pointer;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* Nav Menu Font Color */
+.navbarprimary .navbar-nav > li > a {
+    color: #307633;
+}
+
+/* Site Title Font Color */
+/* (As of 09-16-19, the site title is transparent to show the logo title) */
+.site-title-main a.site-name-pr {
+    color: #307633;
+}
+
+/* Header name logo that replaces site title */
+.header-logo-outer {
+	background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/Logo_Name_Clear_Title.png) no-repeat center center;
+	background-size: 350px;
+	height: 86px;
+	width: 400px;
+	margin: auto;
+}
+
+/* Site Title made transparent in order to show the logo name */
+.site-name-pr {
+	opacity: 0;
+}
+
+/* Footer Styling */
+
+/* Footer Text color */
+.footer-copyright {
+	background-color: #B6B8BA;
+	color: #FFF;
+}
+
+/* Footer Copyright Link color */
+.footer-copyright a {
+	color: #307633;
+}
+
+.bgtoph {
+    background-color: #B6B8BA;
+}
+
+.bgtoph, .bgtoph-icon-clr {
+    color: #FFF;
+}
+
+.bgtoph a {
+		color: #FFF;
+}
+
+.bgtoph-icon-clr {
+    border-color: #FFF;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+#side-menu a {
+	color: #DAEAE9;
+}
+
+/* Back to top button color */
+#back-to-top, .di_responsive_social_widget a, .bbp-submit-wrapper .button {
+    background-color: #87C72F;
+}
+
+.wp-block-button__link #setup_Button {
+    background-color: #32373c;
+    border: none;
+    border-radius: 28px;
+    box-shadow: none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
 }
