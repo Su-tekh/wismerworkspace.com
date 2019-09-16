@@ -194,3 +194,15 @@ h2 {
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(0, 99, 92);;
 }
+
+#Setup {
+    text-align: center;
+}
+
+#Management {
+    text-align: center;
+}
+
+#Trouble {
+    text-align: center;
+}
