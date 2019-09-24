@@ -206,3 +206,8 @@ h2 {
 #Trouble {
     text-align: center;
 }
+
+/* Padding for the body of the content on the page */
+.content-third {
+    padding: 50px;
+}
