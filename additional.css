@@ -205,6 +205,37 @@
     border-radius: 0px;
 }
 
+/* Troubleshooting Button */
+#trouble_Button a {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2.png) no-repeat center center;
+    color: transparent;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin: auto;
+    background-size: contain;
+    border-radius: 0px;
+}
+
+#trouble_Button a:hover {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2_Hover.png) no-repeat center center;
+    color: transparent;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin: auto;
+    background-size: contain;
+    border-radius: 0px;
+}
+
+#trouble_Button a:active {
+    background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2_Active.png) no-repeat center center;
+    color: transparent;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin: auto;
+    background-size: contain;
+    border-radius: 0px;
+}
+
 /* Changes h2 styling */
 h2 {
     color: #00A79D;
