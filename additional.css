@@ -209,7 +209,7 @@
 #trouble_Button a {
     background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2.png) no-repeat center center;
     color: transparent;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 15px;
     margin: auto;
     background-size: contain;
@@ -219,7 +219,7 @@
 #trouble_Button a:hover {
     background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2_Hover.png) no-repeat center center;
     color: transparent;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 15px;
     margin: auto;
     background-size: contain;
@@ -229,7 +229,7 @@
 #trouble_Button a:active {
     background: url(http://wismerworkspace.com/wp-content/uploads/2019/09/trouble_Button_Version_2_Active.png) no-repeat center center;
     color: transparent;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 15px;
     margin: auto;
     background-size: contain;
