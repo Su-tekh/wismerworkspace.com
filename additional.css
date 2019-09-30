@@ -260,3 +260,39 @@ h2 {
 .content-third {
     padding: 20px 50px;
 }
+
+/* eCommerce Page Buttons */
+
+#e-commerce-Button-wrapper_top {
+    margin: auto;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+#setup_Button {
+    text-align: center;
+    width: 50%;
+    padding: 0 29.14% 0 10.21%;
+    float: left;
+}
+
+#management_Button {
+    text-align: center;
+    width: 50%;
+    padding: 0 6.16% 0 25.04%;
+    float: left;
+}
+
+#e-commerce-Button-wrapper_bottom {
+    display: block;
+    margin: auto;
+    width: 50%;
+    clear: both;
+}
+
+#trouble_Button {
+    text-align: center;
+    padding: 0 10%;
+    width: auto;
+}
